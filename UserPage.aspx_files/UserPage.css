@@ -1,0 +1,22 @@
+﻿#BodyDiv{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#ProfilePictureDiv{
+    display: block;
+    left: 0px;
+    width:20%;
+    height:30%;
+}
+
+.ProfilePicture{
+    width:40%;
+}
+
+#PublicProfileSetterDiv{
+    position:absolute;
+    left: 50%; 
+    margin-right: -50%; 
+    transform: translate(-50%, -50%);
+}

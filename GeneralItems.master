@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="GeneralItems.master.cs" Inherits="GeneralItems" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #3366CC">
+    <form id="form1" runat="server">
+        <div style="position: absolute; top: 10px; right: 0px; left: 0px; text-align: center">
+        <asp:Button ID="HomeButton" runat="server" Text="Home" OnClick="HomeButton_Click" />
+            <asp:Button ID="ProfileButton" runat="server" OnClick="ProfileButton_Click" Text="Profile" Visible="False" />
+        <asp:Button ID="SearchButton" runat="server" Text="Search People" OnClick="SearchButton_Click" />
+        <asp:Button ID="LogInOutButton" runat="server" Text="LogIn" OnClick="LogInOutButton_Click" />
+            <br />
+        <asp:Label ID="WelcomeMessage" runat="server" Text="Label"></asp:Label>
+        </div>
+         <br /><br /><br /><br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+    <div style="bottom: 0px; text-align: center; right: 0px; left: 0px;">
+    <hr />
+    <asp:Label ID="Label1" runat="server" Text="Lorem ipsum dolor sit amet"></asp:Label>
+    </div>
+</body>
+</html>

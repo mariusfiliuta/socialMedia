@@ -1,0 +1,55 @@
+﻿#BodyDiv{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.profilebut{
+    display:block;
+}
+/*
+#TopDiv{
+    position: relative;
+    background-color:red;
+    width:100%;
+    margin-top:0%;
+}
+#FriendsDiv{
+    margin-top:10%;
+    margin-left:20%;
+    margin-right:20%;
+}
+#ProfilePictureDiv{
+    position: absolute;
+    top:0; 
+    left:0; 
+    z-index:50;
+    max-width:20%;
+    max-height:10%;
+}
+#ProfileButtons{
+    position: absolute;
+    top:0; 
+    right:0; 
+    z-index:51;
+}
+
+#PublicProfileSetterDiv{
+    position:absolute;
+    left: 50%; 
+    margin-right: -50%; 
+    transform: translate(-50%, -50%);
+}
+.topdiv{
+    display:inline-block;
+}
+
+
+.messagebuttons{
+    width: 100px;
+    display:inline-block;
+}
+
+.friends{
+    display:inline-block;
+}   
+*/
